@@ -1,14 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Jeferson%20Zelaya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Freelance%20Full%20Stack%20Developer&descAlignY=52&descSize=20" width="100%"/>
+<img src="https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Jeferson%20Zelaya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20Agent%20Orchestration&descAlignY=52&descSize=20" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&multiline=true&width=700&height=90&lines=%F0%9F%9A%80+Freelance+Developer;%F0%9F%92%BB+Full+Stack+%7C+TypeScript+%2F+JavaScript;%F0%9F%8E%AE+Building+Pokeidle%2C+Ermez+%26+BosqueLasMadres;%F0%9F%8E%93+Graduandome+como+Programador+-+Octubre+2026" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&multiline=true&width=700&height=90&lines=Full+Stack+Developer+%7C+TypeScript+%C2%B7+NestJS+%C2%B7+Next.js;I+build+tooling+that+orchestrates+AI+coding+agents;Multi-tenant+SaaS%2C+REST+APIs%2C+PostgreSQL;Informatica+Empresarial+%40+UCR+-+graduating+Oct+2026" alt="Typing SVG" />
 
 <br/>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefersonzelayaestrada/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeferson.zelayae@gmail.com)
+[![Location](https://img.shields.io/badge/Costa%20Rica-4CC9F0?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+
 <img src="https://komarev.com/ghpvc/?username=JasvlL&label=Profile%20Views&color=4361ee&style=for-the-badge" />
 <img src="https://img.shields.io/github/followers/JasvlL?label=Followers&style=for-the-badge&color=7209b7" />
-<img src="https://img.shields.io/badge/Status-Freelancing-4CC9F0?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Open%20to%20work-Available-2ea043?style=for-the-badge" />
 
 </div>
 
@@ -16,25 +20,58 @@
 
 <img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
-## 🧑‍💻 Sobre mi
+## 🧑‍💻 About me
 
-```
+I build web applications end to end — data modelling, REST APIs, authentication and role-based access control, through to deployed interfaces. Most of my work is TypeScript over **NestJS** and **Next.js**, backed by **PostgreSQL** and **Prisma**.
+
+Lately most of my own time goes into a narrower problem: **making autonomous AI coding agents verifiable enough to run unattended.** That is what `Flint` and `Shadow-CLI` below are about — orchestration across providers, task isolation in separate git worktrees, and verifying what an agent claims it did against exit codes, real file diffs, and a build command.
+
+```ts
 const jeferson = {
-  rol: "Freelance Full Stack Developer",
-  estudios: "Informatica Empresarial",
-  titulo: "Programador (octubre 2026)",
-  proyectosActuales: ["Pokeidle", "Ermez", "BosqueLasMadres"],
-  filosofia: "Siempre aprendiendo, siempre construyendo"
+  role:      "Full Stack Developer",
+  studying:  "Informatica Empresarial @ Universidad de Costa Rica",
+  graduates: "October 2026",
+  focus:     ["Multi-tenant SaaS", "REST APIs", "AI agent orchestration"],
+  stack:     ["TypeScript", "NestJS", "Next.js", "PostgreSQL", "Prisma"],
+  languages: ["Spanish (native)", "English (C1)"],
+  philosophy: "Always learning, always building",
 };
 ```
 
 <br/>
 
-## 🛠️ Stack tecnologico
+<img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
+
+## 🛠️ Tech stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,angular,postgres,mysql,vercel,git,github,figma,vscode&theme=dark" />
+**Languages**
+
+[![Languages](https://skillicons.dev/icons?i=ts,js,py,java,php,cs,html,css&theme=dark)](https://skillicons.dev)
+
+**Backend & Frameworks**
+
+[![Backend](https://skillicons.dev/icons?i=nestjs,nodejs,express,laravel,prisma,dotnet&theme=dark)](https://skillicons.dev)
+
+**Frontend**
+
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,angular,tailwind&theme=dark)](https://skillicons.dev)
+
+**Databases**
+
+[![Databases](https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase&theme=dark)](https://skillicons.dev)
+
+**Tools & Infrastructure**
+
+[![Tools](https://skillicons.dev/icons?i=git,github,docker,vercel,linux,postman,figma,vscode&theme=dark)](https://skillicons.dev)
+
+**AI-augmented development**
+
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-1a1a1a?style=for-the-badge)
+![Codex](https://img.shields.io/badge/OpenAI%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 
 </div>
 
@@ -42,48 +79,89 @@ const jeferson = {
 
 <img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
-## 🚀 Proyectos destacados
+## 🚀 Featured projects
 
 <table>
 <tr>
-<td width="33%" valign="top" align="center">
+<td width="50%" valign="top">
 
-### 🐾 Pokeidle
-[![Pokeidle](https://img.shields.io/badge/repo-Pokeidle-4CC9F0?style=for-the-badge&logo=github)](https://github.com/JasvlL/pokeidle)
+### ⚡ Flint — Fleet Manager
 
-Marketplace de compraventa e intercambio de items del juego Poke Idle World, con moneda interna en USDT y salas de entrega con doble confirmacion.
+[![Repo](https://img.shields.io/badge/repo-Flint-4361EE?style=for-the-badge&logo=github)](https://github.com/JasvlL/Flint)
 
-`Next.js 16` `TypeScript` `Prisma` `Supabase`
+Hybrid multi-model orchestrator for AI coding agents.
+
+- Runs cheap deterministic fixes without spending tokens
+- Slices context down to what is strictly needed
+- Isolates every task in its own `git worktree`
+- **Never trusts an agent's word** — verifies each result against exit codes, physical file diffs, and a build/test command before a human sees it
+
+`TypeScript` `Node.js` `Git`
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="50%" valign="top">
+
+### 🌑 Shadow-CLI
+
+[![Repo](https://img.shields.io/badge/repo-Shadow--CLI-7209B7?style=for-the-badge&logo=github)](https://github.com/JasvlL/Shadow-CLI)
+
+A terminal IDE that runs Claude and Gemini under one orchestrator.
+
+- An agent on one subscription can delegate work to an agent on another
+- The conversation survives switching between them
+- Interactive IDE mode plus a single-turn non-interactive mode
+
+`TypeScript` `CLI`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### ⚙️ Ermez
-[![Ermez](https://img.shields.io/badge/repo-Ermez-7209B7?style=for-the-badge&logo=github)](https://github.com/JasvlL/Ermez)
 
-Proyecto en fase de despliegue.
+[![Repo](https://img.shields.io/badge/repo-Ermez-F72585?style=for-the-badge&logo=github)](https://github.com/JasvlL/Ermez)
 
-`TypeScript`
+Multi-tenant SaaS for managing calls for applications, submissions, evaluations and business diagnostics. Built for a client, currently in deployment.
+
+- PNPM monorepo: Next.js web · NestJS + Prisma API · worker service
+- JWT auth with sliding sessions, granular RBAC (owner / evaluator / beneficiary)
+- Audit module for full traceability, multi-tenant data isolation
+- Built against a written SRS and architecture proposal
+
+`TypeScript` `NestJS` `Next.js` `PostgreSQL` `Prisma`
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="50%" valign="top">
 
-### 🌳 BosqueLasMadres
-[![BosqueLasMadres](https://img.shields.io/badge/repo-BosqueLasMadres-F72585?style=for-the-badge&logo=github)](https://github.com/JasvlL/BosqueLasMadres)
+### 🌳 Bosque Las Madres
 
-Proyecto web construido en JavaScript.
+[![Live](https://img.shields.io/badge/live-bosque--las--madres-2ea043?style=for-the-badge&logo=vercel&logoColor=white)](https://bosque-las-madres.vercel.app)
+[![Repo](https://img.shields.io/badge/repo-source-4CC9F0?style=for-the-badge&logo=github)](https://github.com/JasvlL/BosqueLasMadres)
 
-`JavaScript`
+Official site for the Bosque Las Madres biological corridor in Limón, Costa Rica. Built from scratch as university community work.
+
+- Catalogue of **177 bird species** — taxonomic filters, real-time search, audio, pagination
+- Interactive Leaflet map of the 4 observation trails
+- **Lighthouse 94 performance · 98 SEO**
+
+`Next.js 16` `React 19` `Leaflet` `CSS`
 
 </td>
 </tr>
 </table>
 
+<div align="center">
+
+**Also:** [`AgenteINM`](https://github.com/JasvlL/AgenteINM) — collaborative AI agent system for real estate management (Python, OpenRouter, ClickUp API) · *early prototype*
+
+</div>
+
 <br/>
 
 <img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
-## 📊 GitHub Stats
+## 📊 GitHub stats
 
 <div align="center">
 
@@ -96,17 +174,7 @@ Proyecto web construido en JavaScript.
 
 <br/>
 
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=JasvlL&theme=radical&no-frame=true&row=1&column=7&margin-w=8" />
-
-</div>
-
-<br/>
-
-## 🐍 Contribution Snake
+## 🐍 Contribution graph
 
 <div align="center">
 
@@ -118,18 +186,15 @@ Proyecto web construido en JavaScript.
 
 <img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
-## 📫 Contacto
-
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeferson.zelayae@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JasvlL)
+## 📫 Get in touch
+
+Open to full-time roles — remote, or on-site in Costa Rica's Greater Metropolitan Area.
+
+[![Email](https://img.shields.io/badge/jeferson.zelayae@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeferson.zelayae@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefersonzelayaestrada/)
 
 </div>
-
-<br/>
 
 <img src="https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
-
-</div>
