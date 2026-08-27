@@ -24,7 +24,7 @@
 
 I build web applications end to end — data modelling, REST APIs, authentication and role-based access control, through to deployed interfaces. Most of my work is TypeScript over **NestJS** and **Next.js**, backed by **PostgreSQL** and **Prisma**.
 
-Lately most of my own time goes into a narrower problem: **making autonomous AI coding agents verifiable enough to run unattended.** That is what `Flint` and `Shadow-CLI` below are about — orchestration across providers, task isolation in separate git worktrees, and verifying what an agent claims it did against exit codes, real file diffs, and a build command.
+Lately most of my own time goes into a narrower problem: **making autonomous AI coding agents verifiable enough to run unattended** — orchestration across providers, task isolation in separate git worktrees, and verifying what an agent claims it did against exit codes, real file diffs, and a build command, rather than taking its word for it.
 
 ```ts
 const jeferson = {
@@ -79,73 +79,68 @@ const jeferson = {
 
 <img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
-## 🚀 Featured projects
+## 🚀 What I build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ Flint — Fleet Manager
+### ⚡ Agent fleet orchestration
 
-[![Repo](https://img.shields.io/badge/repo-Flint-4361EE?style=for-the-badge&logo=github)](https://github.com/JasvlL/Flint)
+A hybrid multi-model orchestrator for AI coding agents, built around one premise: **an agent's word is not evidence.**
 
-Hybrid multi-model orchestrator for AI coding agents.
+- Cheap deterministic fixes run without spending a single token
+- Context is sliced down to what a task strictly needs before any model is invoked
+- Every task is isolated in its own `git worktree`, so a bad run cannot contaminate the tree
+- Every result is verified against exit codes, physical file diffs and a build/test command before a human ever sees it
 
-- Runs cheap deterministic fixes without spending tokens
-- Slices context down to what is strictly needed
-- Isolates every task in its own `git worktree`
-- **Never trusts an agent's word** — verifies each result against exit codes, physical file diffs, and a build/test command before a human sees it
-
-`TypeScript` `Node.js` `Git`
+`TypeScript` `Node.js` `Git internals`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌑 Shadow-CLI
+### 🌑 Cross-provider agent IDE
 
-[![Repo](https://img.shields.io/badge/repo-Shadow--CLI-7209B7?style=for-the-badge&logo=github)](https://github.com/JasvlL/Shadow-CLI)
+A terminal IDE that runs Claude and Gemini under a single orchestrator.
 
-A terminal IDE that runs Claude and Gemini under one orchestrator.
+- An agent on one provider can delegate work to an agent on another
+- The conversation survives the switch — no context lost when handing off between models
+- Interactive IDE mode plus a single-turn non-interactive mode for scripting
 
-- An agent on one subscription can delegate work to an agent on another
-- The conversation survives switching between them
-- Interactive IDE mode plus a single-turn non-interactive mode
-
-`TypeScript` `CLI`
+`TypeScript` `CLI` `LLM APIs`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Ermez
+### ⚙️ Multi-tenant SaaS platform
 
-[![Repo](https://img.shields.io/badge/repo-Ermez-F72585?style=for-the-badge&logo=github)](https://github.com/JasvlL/Ermez)
+A platform for managing funding calls, applications, evaluations and business diagnostics — built for a client, currently in deployment.
 
-Multi-tenant SaaS for managing calls for applications, submissions, evaluations and business diagnostics. Built for a client, currently in deployment.
+- Monorepo separating web, API and worker services
+- JWT authentication with sliding sessions
+- Granular role-based access control across owner, evaluator and beneficiary roles
+- Full audit trail — when a decision allocates money, "who changed this" has to be answerable
+- Multi-tenant data isolation, with no physical deletion of functional records
+- Specified before it was built: written requirements spec and architecture proposal
 
-- PNPM monorepo: Next.js web · NestJS + Prisma API · worker service
-- JWT auth with sliding sessions, granular RBAC (owner / evaluator / beneficiary)
-- Audit module for full traceability, multi-tenant data isolation
-- Built against a written SRS and architecture proposal
-
-`TypeScript` `NestJS` `Next.js` `PostgreSQL` `Prisma`
+`NestJS` `Next.js` `PostgreSQL` `Prisma`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌳 Bosque Las Madres
+### 🌳 Bosque Las Madres Biological Corridor
 
-[![Live](https://img.shields.io/badge/live-bosque--las--madres-2ea043?style=for-the-badge&logo=vercel&logoColor=white)](https://bosque-las-madres.vercel.app)
-[![Repo](https://img.shields.io/badge/repo-source-4CC9F0?style=for-the-badge&logo=github)](https://github.com/JasvlL/BosqueLasMadres)
+[![Live site](https://img.shields.io/badge/live-bosque--las--madres.vercel.app-2ea043?style=for-the-badge&logo=vercel&logoColor=white)](https://bosque-las-madres.vercel.app)
 
-Official site for the Bosque Las Madres biological corridor in Limón, Costa Rica. Built from scratch as university community work.
+Official site for a biological corridor in Limón, Costa Rica. Requirements gathered directly with the corridor's coordination team, then designed, built and published from scratch.
 
-- Catalogue of **177 bird species** — taxonomic filters, real-time search, audio, pagination
-- Interactive Leaflet map of the 4 observation trails
-- **Lighthouse 94 performance · 98 SEO**
+- Catalogue of **177 bird species** — taxonomic filters, real-time search, birdsong audio, pagination
+- Interactive map of the 4 observation trails
+- **Lighthouse 94 performance · 98 SEO** — static rendering, image optimisation, a hand-rolled CSS design system
 
-`Next.js 16` `React 19` `Leaflet` `CSS`
+`Next.js 16` `React 19` `Leaflet`
 
 </td>
 </tr>
@@ -153,7 +148,15 @@ Official site for the Bosque Las Madres biological corridor in Limón, Costa Ric
 
 <div align="center">
 
-**Also:** [`AgenteINM`](https://github.com/JasvlL/AgenteINM) — collaborative AI agent system for real estate management (Python, OpenRouter, ClickUp API) · *early prototype*
+*Also: a collaborative multi-agent system for real estate management — LLM routing through OpenRouter, live web search, and specialised legal and market-analysis agents triggered by @-mention. Early prototype.*
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<sub>Some of the work above lives in private repositories. Happy to walk through architecture, trade-offs and code in a conversation.</sub>
 
 </div>
 
