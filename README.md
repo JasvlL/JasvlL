@@ -1,46 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Jeferson%20Zelaya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20Agent%20Orchestration&descAlignY=52&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Jeferson%20Zelaya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20Agent%20Orchestration&descAlignY=52&descSize=20" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&multiline=true&width=700&height=90&lines=Full+Stack+Developer+%7C+TypeScript+%C2%B7+NestJS+%C2%B7+Next.js;I+build+tooling+that+orchestrates+AI+coding+agents;Multi-tenant+SaaS%2C+REST+APIs%2C+PostgreSQL;Informatica+Empresarial+%40+UCR+-+graduating+Oct+2026" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&multiline=true&width=900&height=90&lines=Full+Stack+Developer+%7C+TypeScript+%C2%B7+NestJS+%C2%B7+Next.js;I+build+tooling+that+orchestrates+AI+coding+agents;Multi-tenant+SaaS%2C+REST+APIs%2C+PostgreSQL;Informatica+Empresarial+%40+UCR+-+graduating+Oct+2026" alt="Typing SVG" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefersonzelayaestrada/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeferson.zelayae@gmail.com)
 [![Location](https://img.shields.io/badge/Costa%20Rica-4CC9F0?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
-
-<img src="https://komarev.com/ghpvc/?username=JasvlL&label=Profile%20Views&color=4361ee&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/JasvlL?label=Followers&style=for-the-badge&color=7209b7" />
-<img src="https://img.shields.io/badge/Open%20to%20work-Available-2ea043?style=for-the-badge" />
+[![Open to work](https://img.shields.io/badge/Open%20to%20work-Available-2ea043?style=for-the-badge)](#-get-in-touch)
 
 </div>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
 ## 🧑‍💻 About me
 
-I build web applications end to end — data modelling, REST APIs, authentication and role-based access control, through to deployed interfaces. Most of my work is TypeScript over **NestJS** and **Next.js**, backed by **PostgreSQL** and **Prisma**.
+Hi — I'm Jeferson, a full stack developer from Costa Rica.
 
-Lately most of my own time goes into a narrower problem: **making autonomous AI coding agents verifiable enough to run unattended** — orchestration across providers, task isolation in separate git worktrees, and verifying what an agent claims it did against exit codes, real file diffs, and a build command, rather than taking its word for it.
+I build web applications end to end: data modelling, REST APIs, authentication and role-based access control, through to deployed interfaces. Most of my work is TypeScript over **NestJS** and **Next.js**, backed by **PostgreSQL** and **Prisma**. I'm drawn to the parts of a system where correctness actually matters — permissions, audit trails, tenant isolation — and I tend to write the spec before I write the code.
 
-```ts
-const jeferson = {
-  role:      "Full Stack Developer",
-  studying:  "Informatica Empresarial @ Universidad de Costa Rica",
-  graduates: "October 2026",
-  focus:     ["Multi-tenant SaaS", "REST APIs", "AI agent orchestration"],
-  stack:     ["TypeScript", "NestJS", "Next.js", "PostgreSQL", "Prisma"],
-  languages: ["Spanish (native)", "English (C1)"],
-  philosophy: "Always learning, always building",
-};
-```
+Lately most of my own time goes into a narrower problem: **making autonomous AI coding agents verifiable enough to run unattended**. Orchestration across providers, task isolation in separate git worktrees, and verifying what an agent claims it did against exit codes, real file diffs and a build command — rather than taking its word for it.
+
+Outside of that I'm finishing my degree, shipping side projects, and generally learning in public.
+
+- 🎓 **Informática Empresarial** @ Universidad de Costa Rica — graduating **October 2026**
+- 🌎 Based in Costa Rica's Greater Metropolitan Area — open to remote or on-site
+- 🗣️ Spanish (native) · English (C1)
+- 🎯 Currently focused on multi-tenant SaaS, REST APIs and AI agent orchestration
 
 <br/>
 
-<img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
 ## 🛠️ Tech stack
 
@@ -77,7 +71,7 @@ const jeferson = {
 
 <br/>
 
-<img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
 ## 🚀 What I build
 
@@ -162,7 +156,7 @@ Official site for a biological corridor in Limón, Costa Rica. Requirements gath
 
 <br/>
 
-<img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
 ## 📊 GitHub stats
 
@@ -177,17 +171,7 @@ Official site for a biological corridor in Limón, Costa Rica. Requirements gath
 
 <br/>
 
-## 🐍 Contribution graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/JasvlL/JasvlL/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</div>
-
-<br/>
-
-<img width="100%" src="https://capsule-render.com/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1b2a,100:1b263b&height=2"/>
 
 <div align="center">
 
@@ -200,4 +184,4 @@ Open to full-time roles — remote, or on-site in Costa Rica's Greater Metropoli
 
 </div>
 
-<img src="https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
